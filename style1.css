@@ -1,26 +1,32 @@
 * {
     padding: 0;
-    margin: 10px;
+    margin: 0;
     box-sizing: border-box;
 }
 
 header {
     font-size: 100%;
     background-image: url(./img//design2_image1.jpg);
-    background-size: cover;
+background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:scroll;
-    }
+    top:0px;
+    
+}
+
+header > img{
+
+}
 
 header > h1 {
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 010px;
-    left: 030px;  
+    top: 0px;
+    left: 0px;  
     text-align: center;
-    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+   color: white;
 }
 
 header > h2 {
@@ -28,12 +34,8 @@ header > h2 {
     color: white;
     font-size: 5x;
     height: 100%;
-    width: 100%;
-    margin: 0px;
-    left: 30px;  
     text-align: center;
 }
-
 body{
     width: 100%;
 }
@@ -53,9 +55,11 @@ header > img{
 }
 
 nav > a {
+
+    height: 80%%;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
 }
 
@@ -67,28 +71,11 @@ footer{
 }
 
 #imgf {
-    margin: 5px, 3px 5px, 3px;    
-    text-align: center;
-    vertical-align: middle;
+    padding: 10px;
+    margin: 5px;    
+    background-position: center;
     border: rgb(0, 0, 0) 5px solid;
-    position:relative;
-    padding: 1px, 1px, 1px, 1px;
+    position: relative;
 }
 
-section {
-    text-align: left;
-    line-height: 0.55;
-    position:relative; 
-    top: 10px;
-    left: -6%;
-}
-
-section > h4{
-    text-size: 25em ;
-    line-height: 1.55; 
-}
-
-section > h3{
-    text-size: 25em ;
-     
-}
+/* header:hover {filter: opacity(.5);} */
