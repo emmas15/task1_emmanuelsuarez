@@ -26,7 +26,6 @@ header > h1 {
 header > h2 {
     background-color: black;
     color: white;
-    font-size: 5x;
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -43,7 +42,7 @@ header > img{
     background-color: white;
     border: rgb(0, 0, 0) 5px solid;
     position: relative;
-    top: 100px;
+    top: 90px;
     left: 80%;  
 }
 
@@ -67,28 +66,19 @@ footer{
 }
 
 #imgf {
-    margin: 5px, 3px 5px, 3px;    
     text-align: center;
     vertical-align: middle;
     border: rgb(0, 0, 0) 5px solid;
     position:relative;
-    padding: 1px, 1px, 1px, 1px;
 }
 
 section {
     text-align: left;
     line-height: 0.55;
     position:relative; 
-    top: 10px;
     left: -6%;
 }
 
 section > h4{
-    text-size: 25em ;
-    line-height: 1.55; 
-}
-
-section > h3{
-    text-size: 25em ;
-     
+    line-height: 1.55;      
 }
