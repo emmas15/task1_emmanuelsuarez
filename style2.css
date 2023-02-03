@@ -18,8 +18,9 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:scroll;
-    margin: 8px;
     opacity: 97%;
+    margin: 8px;
+    
 }
 
 header > h1 {
