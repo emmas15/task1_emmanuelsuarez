@@ -94,11 +94,15 @@ a {
 }
 
 /* TABLAS */
-table {
-    width: 100%;
+table{
     border: 1px solid #999;
-    text-align: center;
+    padding: 2px;
     margin: auto;
+    width: 100%;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    flex: auto;
  }
 
 th{
@@ -120,7 +124,6 @@ th{
  }
 
 /*SECTION */
-
 section, section > div {
     height: auto;
     width: 1260px;
@@ -129,6 +132,11 @@ section, section > div {
     justify-content: center;
     align-content: center;
  }
+
+.section2{
+    height: auto;
+    padding: 20px;
+}
 
  #letra{
     list-style-type: lower-latin;
@@ -156,4 +164,32 @@ footer :hover {-webkit-transform:scale(0.8);transform:scale(1.1);
     overflow:hidden; ;
     }
 
+   /* MAPA */
 
+   #mapa{
+    height: 100vh;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    align-content: flex-start;
+   }
+
+div > h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 1.3rem;
+}
