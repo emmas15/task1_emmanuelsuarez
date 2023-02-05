@@ -26,7 +26,7 @@
     <main>
         <form action="./showdata.html" method="get">
             <fieldset>
-                <legend>Which elementary school do you live near?</legend>
+                <legend>Registration Form</legend>
                 <span>
                 <label for="playername">Player's First Name: </label>
                 <input type="text" name="playername" id="playername">
@@ -43,7 +43,6 @@
                 <span>
                     <label for="city">City: </label>
                     <input type="text" name="city" id="city">
-                    
                     <label for="zipcode">Zip Code: </label>
                     <input type="text" name="zipcode" id="zipcode">
                 </span>
@@ -58,6 +57,68 @@
                     <label for="male">Male</label>
                     <input type="radio" name="gender" id="male">
                 </span>
+
+                <form>
+                    <span>Grade:</span>
+
+                    <input type="radio" id="preschool" name="grade">
+                    <label for="preschool">Pre-School</label>
+                    
+                    <input type="radio" id="1st" name="grade">
+                    <label for="1st">1st</label>
+                    
+                    <input type="radio" id="2nd" name="grade">
+                    <label for="2nd">2nd</label>
+                    
+                    <input type="radio" id="3rd" name="grade">
+                    <label for="3rd">3rd</label>
+                    
+                    <input type="radio" id="4th" name="grade">
+                    <label for="4th">4th</label>
+                    
+                    <input type="radio" id="5th" name="grade">
+                    <label for="5th">5th</label>
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                
+                <input type="checkbox" id="forward" name="forward" value="forward">
+                <label for="forward"></label>
+                <span>Forward</span>
+                
+                <input type="checkbox" id="defense" name="defense" value="defense">
+                <label for="defense"></label>
+                <span>Defense</span>
+                
+                <input type="checkbox" id="midfield" name="midfield" value="midfield">
+                <label for="midfield"></label>
+                <span>Midfield</span>
+                
+                <input type="checkbox" id="goalkeeper" name="goalkeeper" value="goalkeeper">
+                <label for="goalkeeper"></label>
+                <span>Goalkeeper</span>
+            </fieldset>
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                
+                <input type="checkbox" id="forward" name="forward" value="forward">
+                <label for="forward"></label>
+                <span>Forward</span>
+                
+                <input type="checkbox" id="defense" name="defense" value="defense">
+                <label for="defense"></label>
+                <span>Defense</span>
+                
+                <input type="checkbox" id="midfield" name="midfield" value="midfield">
+                <label for="midfield"></label>
+                <span>Midfield</span>
+                
+                <input type="checkbox" id="goalkeeper" name="goalkeeper" value="goalkeeper">
+                <label for="goalkeeper"></label>
+                <span>Goalkeeper</span>
             </fieldset>
         </form>
     </main>
